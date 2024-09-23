@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112397012C9E13ED00A029D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112397002C9E13ED00A029D3 /* Extensions.swift */; };
 		1123EFF92C9B77E800583D40 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1123EFF82C9B77E800583D40 /* FirebaseAnalytics */; };
 		1123EFFB2C9B77E800583D40 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 1123EFFA2C9B77E800583D40 /* FirebaseAnalyticsOnDeviceConversion */; };
 		1123EFFD2C9B77E800583D40 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 1123EFFC2C9B77E800583D40 /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -75,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112397002C9E13ED00A029D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1123F0262C9B79D800583D40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1123F02D2C9B7C6B00583D40 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1123F02F2C9B7C7F00583D40 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				11E37D952C9B74AF00FD880F /* toDoAppApp.swift */,
 				1123F0262C9B79D800583D40 /* GoogleService-Info.plist */,
 				11E37D992C9B74B100FD880F /* Assets.xcassets */,
+				112397002C9E13ED00A029D3 /* Extensions.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				1123F0422C9B7D6500583D40 /* ToDoListViewViewModel.swift in Sources */,
 				1123F0462C9B7D8200583D40 /* LoginViewViewModel.swift in Sources */,
 				11E37D962C9B74AF00FD880F /* toDoAppApp.swift in Sources */,
+				112397012C9E13ED00A029D3 /* Extensions.swift in Sources */,
 				1123F03C2C9B7D0D00583D40 /* ToDoListItem.swift in Sources */,
 				1123F0322C9B7C8E00583D40 /* NewItemView.swift in Sources */,
 				1123F0442C9B7D7400583D40 /* NewItemViewViewModel.swift in Sources */,

@@ -8,10 +8,6 @@
 import SwiftUI
 
 struct RegisterView: View {
-//    @State var name = ""
-//    @State var email = ""
-//    @State var password = ""
-    
     @StateObject var viewModel = RegisterViewViewModel() //değişkenleri oluşturduğumuz sınıftan aldık.
     
     var body: some View {
@@ -35,7 +31,7 @@ struct RegisterView: View {
                         SecureField("Şifreniz", text: $viewModel.password)
                     }
                 }
-                .frame(height: 300)
+                .frame(height: 200)
                 
                 BigButton(title: "Kayıt Ol", action: {viewModel.register()})
                 Spacer()

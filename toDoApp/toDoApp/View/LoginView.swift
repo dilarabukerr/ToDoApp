@@ -32,7 +32,7 @@ struct LoginView: View {
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)//baş harf büyültmeyi kapatıyor
                     SecureField("Şifreniz ", text: $viewModel.password) //şifrenin *** şeklinde görünmesi için.
                 }
-                .frame(height: 200)
+                .frame(height: 150)
                 
                 BigButton(title: "Giriş Yap", action: {viewModel.login()})
                 Spacer()
