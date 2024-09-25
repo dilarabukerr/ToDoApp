@@ -25,11 +25,16 @@ struct ToDoListView: View {
             .toolbar {
                 Button{
                     //Sheed açma kodlarını
+                    viewModel.showingNewItemView = true
                     
                 } label: {
                     Image(systemName: "plus")
                 }
             }
+            .sheet(isPresented: $viewModel.showingNewItemView, content: {
+                //sheet (alt pencere) gösterilir.
+                NewItemView(newItemPresented: $viewModel.showingNewItemView)
+            })
         }
     }
 }
