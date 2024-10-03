@@ -34,7 +34,9 @@ struct LoginView: View {
                 }
                 .frame(height: 150)
                 
-                BigButton(title: "Giriş Yap", action: {viewModel.login()})
+                BigButton(title: "Giriş Yap") {
+                    viewModel.login()
+                }
                 Spacer()
                 
                 //Footer: hesap var mı yok mu?
